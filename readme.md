@@ -4,7 +4,7 @@
 - This supports MySQL and PostgreSQL.
 <h1>2.REQUIREMENTS<h1>
 
-- <h3Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:
+- <h3>Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:
 
 - python -m pip install -U pip
 
