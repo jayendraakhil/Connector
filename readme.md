@@ -4,11 +4,11 @@
 - This supports MySQL and PostgreSQL.
 <h1>2.REQUIREMENTS<h1>
 
-- <h6>Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:</h6>
+- <h3Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:
 
 - python -m pip install -U pip
 
-- pip install -r requirements.txt</h5>
+ - pip install -r requirements.txt</h3>
 <h1>3.Code Block <h1>
  These are the versions of the handled
 
