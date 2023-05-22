@@ -4,7 +4,7 @@
 - This supports MySQL and PostgreSQL.
 <h1>2.REQUIREMENTS<h1>
 
-- <h5>Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:
+- <h6>Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:</h6>
 
 - python -m pip install -U pip
 
@@ -12,11 +12,11 @@
 <h1>3.Code Block <h1>
  These are the versions of the handled
 
-<h2>python==3.11.2
+<h3>python==3.11.2
 
 psycopg2==2.9.5
 
-mysql-connector==2.2.9</h2>
+mysql-connector==2.2.9</h3>
 
 <h1>4.GIT CLONE</h1>
 
