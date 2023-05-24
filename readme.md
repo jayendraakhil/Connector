@@ -12,7 +12,7 @@
  
  <h2>2.Installations:</h2 >
 
- git clone ("https://github.com/jayendraakhil/Eplay.git")
+ git clone ("(https://github.com/jayendraakhil/Connector.git)")
 
 
 Download every file in this 
