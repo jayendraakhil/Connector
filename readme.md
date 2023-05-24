@@ -9,6 +9,16 @@
 - python -m pip install -U pip
 
  - pip install -r requirements.txt
+ 
+ <h2>2.Installations:</h2 >
+
+ git clone ("https://github.com/jayendraakhil/Eplay.git")
+
+
+Download every file in this 
+
+ Clone this repository
+
 <h1>3.Code Block <h1>
  These are the versions of the handled
 
