@@ -65,7 +65,7 @@ class Prep:
                 self.connection.commit()
                 self.logger.info("Table inserted successfully")
         except Exception as e:
-            self.logger.info(f"Error while inserting table: {e}")
+            self.logger.error(f"Error while inserting table: {e}")
 
 
     def update_table(self, values):
@@ -82,7 +82,7 @@ class Prep:
             self.connection.commit()
             self.logger.info( "Table updated successfully")
         except Exception as e:
-            self.logger.info(f"Error while updating table: {e}")
+            self.logger.error(f"Error while updating table: {e}")
             self.connection.rollback()
 
     def delete_table(self, values):
