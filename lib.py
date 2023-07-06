@@ -100,10 +100,10 @@ class Prep:
         except Exception as e:
             self.logger.error(f"Error while deleting table")
 
-Prepobj=Prep ('table name', user='user', password='password', host='host', port='port', database='database')
+Prepobj=Prep (table='tablename', logfile='test.log',user='user', password='password', host='host', port='port', database='database')
 Prepobj.create_table(pk='phone')
 i = [{'name':'name','address':'address','phone': 'phone'},{'name':'name','address':'address','phone':' phone'},]
 Prepobj.insert_table(i)
-Prep.update_table({})
-Prep.delete_table({'address': 'address'})
+Prepobj.update_table({})
+Prepobj.delete_table({'address': 'address'})
     
