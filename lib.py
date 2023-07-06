@@ -14,7 +14,7 @@ class Prep:
                 print("Connecton Failure reconnect")
         elif y=='MYSQL':
             try:
-                self.connection=mysql.connect(user=user, password=password, host=host, port=port, database=database)
+                self.connection=mysql.connector(user=user, password=password, host=host, port=port, database=database)
                 print("MYSQL Database is connected")
             except:
                 print("Connection Failure")
