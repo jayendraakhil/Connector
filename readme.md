@@ -2,7 +2,7 @@
 
 - This is a python connector for sql querie.
 - This supports MySQL and PostgreSQL.
-<h1>2.REQUIREMENTS<h1>
+<h2>2.REQUIREMENTS</h2>
 
 - Python 3.11.2 all requirements.txt dependencies installed, including build and twine. To install run:
 
